@@ -1,0 +1,30 @@
+.footer {  
+     display: grid;
+     grid-template: 1fr/repeat(3,1fr);
+     background-color: #e6cfe3;
+}
+
+.logo{
+    display: grid;
+    grid-template: 1fr/1fr;
+    justify-self: center;
+    margin: 5px; 
+}
+
+.logo img{
+  width: 100%; 
+}
+
+.contact-info img{
+    max-height: 30px;
+    margin: 5px;
+}
+
+.contact-info {
+    display: grid;
+    grid-template: 1fr/repeat(3,1fr);
+    justify-self: left;
+    align-self: left;
+    margin-top: 40px;
+}
+
