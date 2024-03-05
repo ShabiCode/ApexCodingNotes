@@ -1,0 +1,27 @@
+
+.img-card {  
+    padding: 5%;
+    max-width: 100%;
+
+}
+
+.card { 
+    background-color: #d9b2d4 ;
+    position: relative;
+    flex: 1;
+    max-width: 300px;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.container { 
+    background-color: #eddeed;
+}
+
+.row {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
